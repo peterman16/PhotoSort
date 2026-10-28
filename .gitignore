@@ -1,0 +1,37 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches and build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Real photos used for local testing; never commit them
+test/
+
+# PhotoSort's own files, in case a Shoot folder ends up inside the repo
+.photosort/
+.photosort.json
+*.part
+*.tmp
+
+# Local tools and generated maps
+.claude/
+CLAUDE.local.md
+floorplan/
+0.1.5/
+.in_use/
+
+# OS and editor clutter
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log

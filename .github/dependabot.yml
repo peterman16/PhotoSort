@@ -1,0 +1,8 @@
+# Weekly pull requests when a pinned package in requirements*.txt has a new version
+# (security fixes for Pillow and exiv2 matter most: they parse photos from any card).
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
